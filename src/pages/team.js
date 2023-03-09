@@ -1,7 +1,7 @@
-function Contact(){
+function Team(){
     return(
         <>
         </>
     )
 }
-export default Contact;
+export default Team;

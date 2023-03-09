@@ -1,7 +1,7 @@
-function Contact(){
+function Company(){
     return(
         <>
         </>
     )
 }
-export default Contact;
+export default Company;
