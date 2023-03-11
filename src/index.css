@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--mainBlue) !important;
 }
 
 code {
@@ -14,14 +15,27 @@ code {
 :root{
   --mainBlue: #0f0436;
   --text: #8074ad;
+  --white: white;
 }
 /*Header Section*/
-.headerContainer {
+
+.headercontainer {
   display: flex;
-  justify-content: space-between;
-  background-color: var(--mainBlue);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
   color: var(--text);
 }
+
+.sidebar {
+  position: fixed !important;
+  top: 0px !important;
+  bottom: 0px !important;
+  width: 80px !important;
+
+}
+
 .companyName {
   font-size: 50px;
   padding: 20px;
@@ -30,4 +44,79 @@ code {
 .logo{
   height: 120px;
   padding: 20px;
+  float: right;
+}
+.menuIcon {
+  margin: 0px 0px 50px 20px;
+}
+/* footer section*/
+footer {
+  margin: 20px;
+  text-align: center;
+  height: 80px;
+  background-color: var(--mainBlue);
+  color: var(--text);
+}
+.footericon {
+  padding: 10px;
+  color: var(--text);
+}
+.fa-2x:hover {
+  color: var(--white);
+}
+.builder {
+  color: var(--text);
+  text-decoration: none;
+}
+.builder:hover {
+  color: var(--white);
+}
+
+/* Home section*/
+.carousel {
+  background-color: var(--mainBlue);
+  color: var(--text);
+  width: 120vh;
+  left: 300px;  
+}
+.d-block {
+  border-radius: 10px;
+}
+.services {
+  text-align: center;
+  margin: 20px;
+  color: var(--text);
+}
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.eachCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin: 25px;
+  height: 250px;
+  width: 300px;
+  background-color: var(--text);
+  color: var(--mainBlue);
+}
+.accordion {
+  background-color: var(--mainBlue) !important;
+  color: var(--text);
+
+}
+.accordion-button {
+  background-color: var(--mainBlue) !important;
+  color: var(--text) !important;
+}
+.accordion-button:hover {
+  color: var(--white) !important;
+}
+.accordionBody {
+  color: var(--text);
+   
 }
