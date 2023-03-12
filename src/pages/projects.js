@@ -1,7 +1,25 @@
+import Card from 'react-bootstrap/Card'
+import {faLocationDot, faBed, faBath} from '@fortawesome/free-solid-svg-icons';
+
 function Projects(){
     return(
-        <>
-        </>
+        <div>
+            <Card style={{ width: '18rem' }}>
+                <Card.Img variant="top" src="holder.js/100px180" />
+                <Card.Body>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Subtitle>
+                       <FontAwesomeIcon icon={faLocationDot} />
+                       <FontAwesomeIcon icon={faBed} />
+                       <FontAwesomeIcon icon={faBath} />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        Some quick example text to build on the card title and make up the
+                        bulk of the card's content.
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+        </div>
     )
 }
 export default Projects;
