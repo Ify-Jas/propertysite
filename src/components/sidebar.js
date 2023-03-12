@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { Sidebar, Menu, MenuItem, useProSidebar, SubMenu } from 'react-pro-sidebar';
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faList, faHouse, faBuilding, faScrewdriverWrench, faBriefcase, faEnvelopesBulk, faPeopleGroup, faSleigh} from '@fortawesome/free-solid-svg-icons'
+import {faList, faHouse, faBuilding, faScrewdriverWrench, faBriefcase, faEnvelopesBulk, faPeopleGroup} from '@fortawesome/free-solid-svg-icons'
 
 function Sidebarmain() {
   const { collapseSidebar} = useProSidebar();

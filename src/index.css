@@ -16,6 +16,7 @@ code {
   --mainBlue: #0f0436;
   --text: #8074ad;
   --white: white;
+  --opBlue: rgba(41, 30, 85, 0.4);
 }
 /*Header Section*/
 
@@ -36,16 +37,17 @@ code {
 
 }
 
+.css-1wvake5 {
+  border: none !important;
+}
+
+
 .companyName {
   font-size: 50px;
   padding: 20px;
 }
 
-.logo{
-  height: 120px;
-  padding: 20px;
-  float: right;
-}
+
 .menuIcon {
   margin: 0px 0px 50px 20px;
 }
@@ -74,13 +76,13 @@ footer {
 
 /* Home section*/
 .carousel {
-  background-color: var(--mainBlue);
-  color: var(--text);
   width: 120vh;
   left: 300px;  
 }
 .d-block {
   border-radius: 10px;
+  height: 75vh !important;
+
 }
 .services {
   text-align: center;
@@ -90,6 +92,7 @@ footer {
 .cardContainer {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   margin: 20px;
 }
 .eachCard {
@@ -98,10 +101,10 @@ footer {
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  margin: 25px;
+  margin: 15px;
   height: 250px;
-  width: 300px;
-  background-color: var(--text);
+  width: 250px;
+  background-color: var(--opBlue);
   color: var(--mainBlue);
 }
 .accordion {
@@ -112,6 +115,8 @@ footer {
 .accordion-button {
   background-color: var(--mainBlue) !important;
   color: var(--text) !important;
+
+ 
 }
 .accordion-button:hover {
   color: var(--white) !important;
@@ -120,3 +125,95 @@ footer {
   color: var(--text);
    
 }
+.homeBtnContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.homeBtn {
+  width: 150px;
+  padding: 10px;
+  background-color: var(--text);
+  color: var(--mainBlue);
+  border-radius: 10px;
+  border: solid var(--white);
+  font-weight: bold;
+  text-decoration: none;
+}
+.homeBtn:hover {
+  background-color: var(--white);
+  color: var(--mainBlue);
+
+
+  
+}
+/* contact section */
+.mainCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contactCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  height: 500px;
+  width: 500px;
+  background-color: var(--opBlue);
+  border-radius: 20px;
+}
+.contactCard h1 {
+  color: var(--text);
+  font-size: 50px;
+  margin: 10px;
+}
+.contactCard input, select, label {
+  margin: 5px;
+  color: var(--text);
+  border-radius: 10px;
+  padding: 10px;
+  width: 80%;
+}
+.message {
+  margin: 10px;
+  width: 80%;
+  height: 100px;
+  border-radius: 10px;
+
+}
+.contactBtn {
+  padding: 10px;
+  margin: 5px;
+  width: 50%;
+  background-color: var(--mainBlue);
+  color: var(--text);
+  border-radius: 10px;
+  border: solid var(--text);
+  font-size: 20px;
+}
+.contactBtn:hover {
+  background-color: var(--text);
+  color: var(--mainBlue);
+}
+/* profile section */
+.profileCard{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 1fr 2fr;
+  border: 2px solid var(--text);
+  border-radius: 10px;
+  width: 900px;
+  margin: 10px;
+}
+.profile {
+  margin: 10px;
+  color: var(--text);
+}
+
+.profileImage {
+  margin: 10px;
+}
+

@@ -2,6 +2,9 @@ import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from '../components/header';
 import Accordion from 'react-bootstrap/Accordion';
+import {Link} from 'react-router-dom';
+
+
 
 function Home() {
     return (
@@ -53,12 +56,11 @@ function Home() {
           <div className='eachCard'>
             <Accordion >
               <Accordion.Item className='accordion' eventKey="0">
-                <Accordion.Header className='accordionHeader'><h3>Buying & Selling</h3></Accordion.Header>
+                <Accordion.Header className='accordionHeader'><h4>Buying & Selling</h4></Accordion.Header>
                 <Accordion.Body className='accordionBody'>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                   eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                  minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                  aliquip ex ea commodo consequat. 
+                  minim veniam. 
                 </Accordion.Body>
               </Accordion.Item>
               </Accordion>
@@ -67,12 +69,11 @@ function Home() {
             
             <Accordion>
               <Accordion.Item className='accordion' eventKey="0">
-                <Accordion.Header className='accordionHeader'><h3>Rental Services</h3></Accordion.Header>
+                <Accordion.Header className='accordionHeader'><h4>Rental Services</h4></Accordion.Header>
                 <Accordion.Body className='accordionBody'>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                   eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                  minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                  aliquip ex ea commodo consequat. 
+                  minim veniam.
                 </Accordion.Body>
               </Accordion.Item>
               </Accordion>
@@ -81,17 +82,21 @@ function Home() {
             
             <Accordion>
               <Accordion.Item className='accordion' eventKey="0">
-                <Accordion.Header className='accordionHeader'><h3>Development</h3></Accordion.Header>
+                <Accordion.Header className='accordionHeader'><h4>Development</h4></Accordion.Header>
                 <Accordion.Body className='accordionBody'>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                   eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                  minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                  aliquip ex ea commodo consequat. 
+                  minim veniam.
                 </Accordion.Body>
               </Accordion.Item>
               </Accordion>
           </div>
         </section>
+        <div className='homeBtnContainer'>
+          <button className='homeBtn' ><Link to='/contact' >Contact Us</Link></button>
+
+        </div>
+
 
 
       </div>

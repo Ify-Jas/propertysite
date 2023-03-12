@@ -1,0 +1,29 @@
+{
+    "teamprofile": [
+        {
+            "name": "Ikem Ume-Ezeoke",
+            "position": "MD/CEO",
+            "profile": "Lorem ipsum dolor sit amet. Eos delectus perferendis et consequuntur voluptatem aut fugit itaque ea maiores consequatur qui quas incidunt et vitae consequatur. Qui officiis natus non vitae nobis qui soluta autem. Ea odio accusantium et quasi sint et dicta illum et aspernatur nihil qui quidem minus? Rem odit illum et asperiores quis et omnis rerum At quia minus in quibusdam molestiae quo officia magnam aut illum cumque.",
+            "image": "./images/"
+        },
+        {
+            "name": "Person 2",
+            "position": "Director",
+            "profile": "Lorem ipsum dolor sit amet. Eos delectus perferendis et consequuntur voluptatem aut fugit itaque ea maiores consequatur qui quas incidunt et vitae consequatur. Qui officiis natus non vitae nobis qui soluta autem. Ea odio accusantium et quasi sint et dicta illum et aspernatur nihil qui quidem minus? Rem odit illum et asperiores quis et omnis rerum At quia minus in quibusdam molestiae quo officia magnam aut illum cumque.",
+            "image": "./images/"
+        },
+        {
+            "name": "Person 3",
+            "position": "Manager",
+            "profile": "Lorem ipsum dolor sit amet. Eos delectus perferendis et consequuntur voluptatem aut fugit itaque ea maiores consequatur qui quas incidunt et vitae consequatur. Qui officiis natus non vitae nobis qui soluta autem. Ea odio accusantium et quasi sint et dicta illum et aspernatur nihil qui quidem minus? Rem odit illum et asperiores quis et omnis rerum At quia minus in quibusdam molestiae quo officia magnam aut illum cumque.",
+            "image": "./images/"
+        },
+        {
+            "name": "Person 4",
+            "position": "Secretary",
+            "profile": "Lorem ipsum dolor sit amet. Eos delectus perferendis et consequuntur voluptatem aut fugit itaque ea maiores consequatur qui quas incidunt et vitae consequatur. Qui officiis natus non vitae nobis qui soluta autem. Ea odio accusantium et quasi sint et dicta illum et aspernatur nihil qui quidem minus? Rem odit illum et asperiores quis et omnis rerum At quia minus in quibusdam molestiae quo officia magnam aut illum cumque.",
+            "image": "./images/"
+        }
+    ]
+}
+
