@@ -234,4 +234,21 @@ footer {
   height: 350px;
   width: 300px;
 }
+/* project section  */
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.bedBath {
+  display: flex;
+}
+.bedBath p {
+  padding: 10px;
+}
+.projectBody{
+  background-color: var(--text);
+  color: var(--mainBlue);
+}
 
