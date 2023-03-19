@@ -1,15 +1,20 @@
 import Header from "../components/header";
-import { useState } from 'react';
-import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
+import { useState } from 'react'; 
+// import Button from 'react-bootstrap/Button';
+// import Modal from 'react-bootstrap/Modal';
+
+
+
 
 function Contact(){
+
+    const [success, setSuccess] = useState(false);
     const [contactData, setContactData] = useState({
         name: '',
         email: '',
         subject: '',
         message: '',
-        access_key: 'd574540e-45f0-4a98-a6c0-16b1d6568819'
+        access_key: '69a99131-06c1-49cd-a6da-29cdb9a89140'
     });
     const handleChange = (event) => {
         setContactData({
@@ -17,28 +22,45 @@ function Contact(){
             [event.target.name]: event.target.value,
         });
     }
+    // const [show, setShow] = useState(false);
+
+    // const handleClose = () => setShow(false);
+    // const handleShow = () => setShow(true);
+
     const handleClick = (event) => {
         event.preventDefault();
         if(!contactData.name.length || !contactData.email.length){
-            return
-            <div
-            className="modal show"
-            style={{ display: 'block', position: 'initial' }}
-          >
-            <Modal.Dialog>
-              <Modal.Header closeButton>
-                <Modal.Title>Alert!!</Modal.Title>
-              </Modal.Header>
-      
-              <Modal.Body>
-                <p>Please enter your name or email.</p>
-              </Modal.Body>
-      
-              <Modal.Footer>
-                <Button variant="secondary">Close</Button>
-              </Modal.Footer>
-            </Modal.Dialog>
-          </div>
+            setSuccess(false);
+
+            // render() {
+            //     return (
+            //         <>
+            //             <Button variant="primary" onClick={handleShow}>
+            //                 Launch demo modal
+            //             </Button>
+    
+            //             <Modal show={true} fade={false} onHide={handleClose}>
+            //                 <Modal.Header closeButton>
+            //                     <Modal.Title>Modal heading</Modal.Title>
+            //                 </Modal.Header>
+            //                 <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
+            //                 <Modal.Footer>
+            //                     <Button variant="secondary" onClick={handleClose}>
+            //                         Close
+            //                     </Button>
+            //                     <Button variant="primary" onClick={handleClose}>
+            //                         Save Changes
+            //                     </Button>
+            //                 </Modal.Footer>
+            //             </Modal>
+            //         </>
+            //     )
+
+            // }
+          alert('Please enter your name or email 😊😉');
+
+            
+         
         } else {
            const data = JSON.stringify(contactData);
            fetch("https://api.web3forms.com/submit", {
@@ -52,6 +74,7 @@ function Contact(){
           .then(res => res.json())
           .then((data)=> {
             console.log(data);
+            setSuccess(true);
             setContactData({
                 ...contactData,
                 name: "",
@@ -59,6 +82,9 @@ function Contact(){
                 subject: '',
                 message: "",
               });
+              setTimeout(()=>{
+                setSuccess(false)
+              }, 5000);
           })
 
         }
@@ -113,6 +139,12 @@ function Contact(){
                     <button 
                     className="contactBtn"
                     onClick={handleClick}>Send</button>
+
+                    {success && <p style={{
+                        fontSize: '20px',
+                        color: 'white'
+
+                    }}>Message sent successfully</p>}
                 </form>
             </div>
           
