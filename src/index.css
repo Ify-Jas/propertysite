@@ -270,3 +270,120 @@ footer {
   padding: 20px;
 }
 
+@media(max-width: 768px){
+  /* Header section */
+  .companyName {
+    font-size: 40px;
+    padding: 16px;
+  }
+  /* home section */
+  .carousel {
+    width: 50vh;
+    left: 160px;  
+  }
+  .d-block {
+    height: 65vh !important;
+  
+  }
+
+  .cardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+  }
+  /* profile section  */
+  .profileCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+  }
+  .profileLine {
+    width: 40%;
+  }
+  /* contact section  */
+  .contactCard {
+    margin: 15px;
+    height: 500px;
+    width: 400px;
+  }
+}
+@media(max-width: 360px){
+  /* Header section */
+  .headercontainer {
+    margin-left: 80px;
+  }
+  .companyName {
+    font-size: 30px;
+    padding: 10px;
+  }
+  /* home section */
+  .carousel {
+    width: 35vh;
+    left: 90px;  
+  }
+  .d-block {
+    height: 55vh !important;
+  
+  }
+
+  .cardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+  }
+  .eachCard {
+    background-color: var(--mainBlue);
+    margin-bottom: 45px;
+  }
+  .accordion {
+    background-color: var(--mainBlue) !important;
+    color: var(--text);
+    margin-left: 25px;
+  }
+  .accordion-button {
+    background-color: var(--mainBlue) !important;
+    color: var(--text) !important;
+
+  }
+  
+  /* profile section  */
+  .profileImage {
+    height: 150px;
+    width: 150px;
+  }
+  .profileCard {
+    width: 200px;
+    margin-left: 60px;
+  }
+  /* services section  */
+  .aboutCompany {
+    margin-left: 60px;
+
+  }
+  /* contact section  */
+  .contactCard {
+    height: 500px;
+    width: 250px;
+    margin-left: 80px;
+  }
+ .contactCard h1 {
+  font-size: 30px;
+  margin: 5px;
+ }
+ /* project section  */
+ .projectCard {
+   width: 16rem !important;
+   margin-left: 100px !important;
+ }
+ .projectCarousel {
+  height: 200px !important;
+  width: 220px !important;
+ }
+
+
+}

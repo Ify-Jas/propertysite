@@ -13,12 +13,13 @@ function Projects(){
             <main>
               <Header />
             </main>
-            <Card style={{ 
+            <Card
+            style={{ 
                 width: '22rem', 
                 background: '#8074ad',
                 margin: '20px' }} className='projectCard' >
            
-                <Carousel class="carousel-inner projectCarousel"
+                <Carousel className="carousel-inner projectCarousel"
                   style={{
                     width:'320px',
                     height: '350px',
@@ -27,7 +28,7 @@ function Projects(){
                     
                   }}>
                     <Carousel.Item class="carousel-item active">
-                        <img class="w-100" src="https://api.lorem.space/image/burger?w=150&h=150" alt="image"/>
+                        <img className="w-100" src="https://api.lorem.space/image/burger?w=150&h=150" alt="image"/>
                     </Carousel.Item>
                     <Carousel.Item class="carousel-item">
                         <img class="w-100" src="https://api.lorem.space/image/drink?w=150&h=150" alt="image"/>
