@@ -319,6 +319,10 @@ footer {
     font-size: 30px;
     padding: 10px;
   }
+  /* sidebar section  */
+  .sidebar {
+    background-color: var(--mainBlue);
+  }
   /* home section */
   .carousel {
     width: 35vh;
