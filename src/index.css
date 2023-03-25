@@ -319,6 +319,11 @@ footer {
     font-size: 30px;
     padding: 10px;
   }
+  /* sidebar section  */
+  .css-dip3t8{
+    background-color: var(--mainBlue) !important;
+    color: var(--text) !important;
+  }
 
  
   /* home section */
@@ -364,11 +369,11 @@ footer {
   }
   .profileCard {
     width: 16rem;
-    margin-left: 80px;
+    margin-left: 100px;
   }
   /* services section  */
   .aboutCompany {
-    margin-left: 80px;
+    margin-left: 100px;
 
   }
   /* contact section  */
