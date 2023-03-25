@@ -321,7 +321,7 @@ footer {
   }
   /* sidebar section  */
   .sidebar {
-    background-color: var(--mainBlue);
+    background-color: var(--mainBlue) !important ;
   }
   /* home section */
   .carousel {
