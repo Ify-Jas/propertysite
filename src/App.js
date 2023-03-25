@@ -7,7 +7,7 @@ import Contact from './pages/contact';
 import Services from './pages/services';
 import Sidebarmain from './components/sidebar';
 
-import { ProSidebarProvider, Sidebar } from 'react-pro-sidebar';
+import { ProSidebarProvider } from 'react-pro-sidebar';
 import { Routes, Route } from 'react-router-dom' 
 
 function App() {

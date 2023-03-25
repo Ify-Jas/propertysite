@@ -1,7 +1,7 @@
 import jsonteam from '../teamprofile.json';
 import Header from "../components/header";
-import pic1 from '../images/logofinal.png'
-import pic2 from '../images/Profilepic.jpg';
+// import pic1 from '../images/logofinal.png'
+// import pic2 from '../images/Profilepic.jpg';
 
 
 
