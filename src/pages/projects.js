@@ -59,7 +59,7 @@ function Projects(){
                 background: '#8074ad',
                 margin: '20px' }} className='projectCard' >
            
-                <Carousel class="carousel-inner projectCarousel"
+                <Carousel className="carousel-inner projectCarousel"
                   style={{
                     width:'320px',
                     height: '350px',
@@ -99,7 +99,7 @@ function Projects(){
                 background: '#8074ad',
                 margin: '20px' }} className='projectCard' >
            
-                <Carousel class="carousel-inner projectCarousel"
+                <Carousel className="carousel-inner projectCarousel"
                   style={{
                     width:'320px',
                     height: '350px',
@@ -140,7 +140,7 @@ function Projects(){
                 margin: '20px'
                  }} className='projectCard' >
            
-                <Carousel class="carousel-inner projectCarousel"
+                <Carousel className="carousel-inner projectCarousel"
                   style={{
                     width:'320px',
                     height: '350px',

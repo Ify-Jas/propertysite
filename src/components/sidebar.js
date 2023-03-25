@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faList, faHouse, faBuilding, faScrewdriverWrench, faBriefcase, faEnvelopesBulk, faPeopleGroup} from '@fortawesome/free-solid-svg-icons'
 
 function Sidebarmain() {
-  const { collapseSidebar} = useProSidebar();
+  const { collapseSidebar} = useProSidebar(false);
   // const [isCollapse, setIsCollapse] = useState(!collapseSidebar)
      
   // const handleClick = () => {
