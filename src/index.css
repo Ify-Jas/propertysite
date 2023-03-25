@@ -323,13 +323,20 @@ footer {
   .css-dip3t8{
     background-color: var(--mainBlue) !important;
     color: var(--text) !important;
+   
+  }
+  .menuIcon {
+    margin-top: 30px !important;
+  }
+  .css-6fa4n7{
+    border: 1px solid var(--text) !important;
   }
 
  
   /* home section */
   .carousel {
     width: 35vh;
-    left: 90px;  
+    left: 100px;  
   }
   .d-block {
     height: 55vh !important;
