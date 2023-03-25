@@ -319,6 +319,7 @@ footer {
     font-size: 30px;
     padding: 10px;
   }
+
  
   /* home section */
   .carousel {
@@ -351,6 +352,10 @@ footer {
     color: var(--text) !important;
 
   }
+  /* company section  */
+  .aboutCompany {
+    width: 16rem;
+  }
   
   /* profile section  */
   .profileImage {
@@ -358,7 +363,7 @@ footer {
     width: 150px;
   }
   .profileCard {
-    width: 200px;
+    width: 16rem;
     margin-left: 60px;
   }
   /* services section  */
