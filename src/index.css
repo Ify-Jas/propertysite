@@ -310,7 +310,7 @@ footer {
     width: 400px;
   }
 }
-@media(max-width: 360px){
+@media(max-width: 580px){
   /* Header section */
   .headercontainer {
     margin-left: 80px;
@@ -319,10 +319,7 @@ footer {
     font-size: 30px;
     padding: 10px;
   }
-  /* sidebar section  */
-  .css-1wvake5 {
-    background-color: var(--mainBlue) !important;
-  }
+ 
   /* home section */
   .carousel {
     width: 35vh;
