@@ -359,16 +359,16 @@ footer {
   
   /* profile section  */
   .profileImage {
-    height: 150px;
-    width: 150px;
+    height: 160px;
+    width: 180px;
   }
   .profileCard {
     width: 16rem;
-    margin-left: 60px;
+    margin-left: 40px;
   }
   /* services section  */
   .aboutCompany {
-    margin-left: 60px;
+    margin-left: 40px;
 
   }
   /* contact section  */
