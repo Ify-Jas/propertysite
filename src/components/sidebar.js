@@ -5,8 +5,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faList, faHouse, faBuilding, faScrewdriverWrench, faBriefcase, faEnvelopesBulk, faPeopleGroup} from '@fortawesome/free-solid-svg-icons'
 
 function Sidebarmain() {
-  const { collapseSidebar} = useProSidebar(false);
-  // const [isCollapse, setIsCollapse] = useState(!collapseSidebar)
+  const { collapseSidebar} = useProSidebar();
+  // const [isCollapse, setIsCollapse] = useState(!collapseSidebar())
      
   // const handleClick = () => {
   //   if(isCollapse){
@@ -18,8 +18,11 @@ function Sidebarmain() {
  
 
   return (
-    <div className='headerContainer' style={{ display: 'flex', height: '100%' }}>
-      <Sidebar className='sidebar'>
+    <div className='headerContainer' style={{ display: 'flex', height: '100%'}}>
+      <Sidebar className='sidebar'
+      width='160px'
+      defaultCollapsed = {true}
+      collapsedWidth='40px'>
         <main>
            <FontAwesomeIcon className='menuIcon' onClick={()=> collapseSidebar()} icon={faList} size='3x' />
         </main>
