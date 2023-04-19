@@ -149,13 +149,13 @@ function Projects(){
                     
                   }}>
                     <Carousel.Item class="carousel-item active">
-                        <img class="w-100" src="https://api.lorem.space/image/burger?w=150&h=150" alt="imagerand"/>
+                        <img class="w-100" src="http://placeimg.com/640/480/nature" alt="imagerand"/>
                     </Carousel.Item>
                     <Carousel.Item class="carousel-item">
-                        <img class="w-100" src="https://api.lorem.space/image/drink?w=150&h=150" alt="imagerand"/>
+                        <img class="w-100" src="http://placeimg.com/640/480/animals" alt="imagerand"/>
                     </Carousel.Item>
                     <Carousel.Item class="carousel-item">
-                        <img class="w-100" src="https://api.lorem.space/image/pizza?w=150&h=150" alt="imagerand"/>
+                        <img class="w-100" src="http://placeimg.com/640/480/people" alt="imagerand"/>
                     </Carousel.Item>
                 </Carousel>
                 <Card.Body className='projectBody'>

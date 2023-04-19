@@ -14,7 +14,7 @@ function Team(){
                 {team.map((team, index)=>(
                     <div key={index} className='profileCard'>
                         <main className='profileImageContainer'>
-                            <img className='profileImage' src='https://api.lorem.space/image/fashion?w=150&h=150' alt='profile' />
+                            <img className='profileImage' src='http://placeimg.com/640/480/people' alt='profile' />
                         </main>
                         <div className='profile'>
                             <h1>{team.name}</h1>
