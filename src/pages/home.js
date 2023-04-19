@@ -17,7 +17,7 @@ function Home() {
             <Carousel.Item interval={3000}>
               <img
                 className="d-block w-100"
-                src="https://api.lorem.space/image/furniture?w=150&h=150"
+                src="http://placeimg.com/640/480/arch"
                 alt="First slide"
               />
               <Carousel.Caption>
@@ -28,7 +28,7 @@ function Home() {
             <Carousel.Item interval={3000}>
               <img
                 className="d-block w-100"
-                src="https://api.lorem.space/image/furniture?w=150&h=150"
+                src="http://placeimg.com/640/480/nature"
                 alt="Second slide"
               />
               <Carousel.Caption>
@@ -39,7 +39,7 @@ function Home() {
             <Carousel.Item interval={3000}>
               <img
                 className="d-block w-100"
-                src="https://api.lorem.space/image/furniture?w=150&h=150"
+                src="http://placeimg.com/640/480/people"
                 alt="Third slide"
               />
               <Carousel.Caption>
