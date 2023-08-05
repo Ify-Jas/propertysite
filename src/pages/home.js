@@ -17,7 +17,7 @@ function Home() {
             <Carousel.Item interval={3000}>
               <img
                 className="d-block w-100"
-                src="http://placeimg.com/640/480/arch"
+                src="https://www.pexels.com/photo/house-lights-turned-on-106399/"
                 alt="First slide"
               />
               <Carousel.Caption>
@@ -28,7 +28,7 @@ function Home() {
             <Carousel.Item interval={3000}>
               <img
                 className="d-block w-100"
-                src="http://placeimg.com/640/480/nature"
+                src="https://www.pexels.com/photo/kitchen-and-dining-area-1080721/"
                 alt="Second slide"
               />
               <Carousel.Caption>
@@ -39,7 +39,7 @@ function Home() {
             <Carousel.Item interval={3000}>
               <img
                 className="d-block w-100"
-                src="http://placeimg.com/640/480/people"
+                src="https://www.pexels.com/photo/beige-bungalow-house-259588/"
                 alt="Third slide"
               />
               <Carousel.Caption>
