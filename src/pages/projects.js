@@ -28,13 +28,13 @@ function Projects(){
                     
                   }}>
                     <Carousel.Item class="carousel-item active">
-                        <img className="w-100" src="http://placeimg.com/640/480/animals" alt="imagerand"/>
+                        <img className="w-100" src="https://picsum.photos/id/237/200/300" alt="imagerand"/>
                     </Carousel.Item>
                     <Carousel.Item class="carousel-item">
-                        <img class="w-100" src="http://placeimg.com/640/480/people" alt="imagerand"/>
+                        <img class="w-100" src="https://picsum.photos/seed/picsum/200/300" alt="imagerand"/>
                     </Carousel.Item>
                     <Carousel.Item class="carousel-item">
-                        <img class="w-100" src="http://placeimg.com/640/480/nature" alt="imagerand"/>
+                        <img class="w-100" src="https://picsum.photos/200/300?grayscale" alt="imagerand"/>
                     </Carousel.Item>
                 </Carousel>
                 <Card.Body className='projectBody'>
@@ -68,13 +68,13 @@ function Projects(){
                     
                   }}>
                     <Carousel.Item class="carousel-item active">
-                        <img class="w-100" src="http://placeimg.com/640/480/animals" alt="imagerand"/>
+                        <img class="w-100" src="https://picsum.photos/200/300?grayscale" alt="imagerand"/>
                     </Carousel.Item>
                     <Carousel.Item class="carousel-item">
-                        <img class="w-100" src="http://placeimg.com/640/480/people" alt="imagerand"/>
+                        <img class="w-100" src="https://picsum.photos/id/237/200/300" alt="imagerand"/>
                     </Carousel.Item>
                     <Carousel.Item class="carousel-item">
-                        <img class="w-100" src="http://placeimg.com/640/480/nature" alt="imagerand"/>
+                        <img class="w-100" src="https://picsum.photos/seed/picsum/200/300" alt="imagerand"/>
                     </Carousel.Item>
                 </Carousel>
                 <Card.Body className='projectBody'>
@@ -108,13 +108,13 @@ function Projects(){
                     
                   }}>
                     <Carousel.Item class="carousel-item active">
-                        <img class="w-100" src="http://placeimg.com/640/480/animals" alt="imagerand"/>
+                        <img class="w-100" src="https://picsum.photos/seed/picsum/200/300" alt="imagerand"/>
                     </Carousel.Item>
                     <Carousel.Item class="carousel-item">
-                        <img class="w-100" src="http://placeimg.com/640/480/people" alt="imagerand"/>
+                        <img class="w-100" src="https://picsum.photos/200/300?grayscale" alt="imagerand"/>
                     </Carousel.Item>
                     <Carousel.Item class="carousel-item">
-                        <img class="w-100" src="http://placeimg.com/640/480/nature" alt="imagerand"/>
+                        <img class="w-100" src="https://picsum.photos/id/237/200/300" alt="imagerand"/>
                     </Carousel.Item>
                 </Carousel>
                 <Card.Body className='projectBody'>
@@ -149,13 +149,13 @@ function Projects(){
                     
                   }}>
                     <Carousel.Item class="carousel-item active">
-                        <img class="w-100" src="http://placeimg.com/640/480/nature" alt="imagerand"/>
+                        <img class="w-100" src="https://picsum.photos/200/300?grayscale" alt="imagerand"/>
                     </Carousel.Item>
                     <Carousel.Item class="carousel-item">
-                        <img class="w-100" src="http://placeimg.com/640/480/animals" alt="imagerand"/>
+                        <img class="w-100" src="https://picsum.photos/id/237/200/300" alt="imagerand"/>
                     </Carousel.Item>
                     <Carousel.Item class="carousel-item">
-                        <img class="w-100" src="http://placeimg.com/640/480/people" alt="imagerand"/>
+                        <img class="w-100" src="https://picsum.photos/seed/picsum/200/300" alt="imagerand"/>
                     </Carousel.Item>
                 </Carousel>
                 <Card.Body className='projectBody'>
